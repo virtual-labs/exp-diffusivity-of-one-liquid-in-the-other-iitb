@@ -52,5 +52,4 @@ function verify_act5() {
     act5_table = new Table(act5_table_headings, act5_table_data);
     act5_table.draw();
 }
-activity5();
 //# sourceMappingURL=activity5.js.map
