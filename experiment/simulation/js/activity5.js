@@ -21,13 +21,14 @@ function activity5() {
 
 
 
-        <p>&Delta;C<sub>m</sub> = [(C1 - (C2 - C3))/ ln(C1 / (C1 - C3))]</p>
+        <p>$$ &Delta;C_m = \\frac{(C_1- (C_2-C_3))}{ln({\\frac{C_1}{C_1-C_3}})} $$</p>
 
-        <p>D<sub>L</sub> = (N x V x ln(r1/r2)) / 2 x &pi; x &Theta; h x &Delta;C<sub>m</sub></p>
+        <p>$$ D_L = \\frac{N\× V \× ln(\\frac{r1}{r2})}{2 \× \π \×  Θ  h \× &Delta;C_m} $$</p>
 
     `;
     show_panel(3);
     pp.showdescription(activity5_formulae, 3);
+    MathJax.typeset();
 }
 function load_act5_table() {
     act5_table_headings = ["Sr No.", "Time &Theta; (hr)", "C<sub>1</sub>(N)", "C<sub>2</sub>(N)", "C<sub>3</sub>(N)", "&Delta; C<sub>m</sub>", "D<sub>L</sub> x 10<sup>9</sup> (m<sup>2</sup>/sec)", "check"];

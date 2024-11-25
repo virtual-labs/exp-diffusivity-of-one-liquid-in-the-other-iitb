@@ -1,1 +1,1 @@
-### Aim of the experiment
+<h2> To determine the diffusivity of one liquid in the other </h2>
